@@ -1,10 +1,10 @@
-Centenaria Soluciones - Sistema de Ventas y Compras (SQL Server + Python)
-Español
-Descripción
+**Centenaria Soluciones - Sistema de Ventas y Compras (SQL Server + Python) Español**
 
-Proyecto final del Técnico en Base de Datos.
+**Descripción**
 
-Sistema desarrollado en Python conectado a SQL Server para gestionar:
+**Proyecto final del Técnico en Base de Datos de la Centenaria certificado por Infotep.**
+
+**Sistema desarrollado en Python conectado a SQL Server para gestionar:**
 
 Clientes
 
@@ -24,7 +24,7 @@ Tecnologías Utilizadas
 
 SQL Server (SSMS)
 
-Python 3
+Python 3.13.12
 
 pyodbc
 
