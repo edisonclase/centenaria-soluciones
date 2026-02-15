@@ -4,3 +4,4 @@ python_cs/salidas/
 python_cs/__pycache__/
 *.pyc
 .DS_Store
+*.sql
