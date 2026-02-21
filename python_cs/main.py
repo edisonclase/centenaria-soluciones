@@ -32,6 +32,14 @@ from reportes import (
     reporte_stock_bajo
 )
 
+from reportes_graficos import (
+    ventas_por_cliente,
+    ventas_por_empleado,
+    inventario_maquinas,
+    compras_por_proveedor,
+    ventas_por_categoria,
+)
+
 from exportar import exportar_csv, exportar_excel, exportar_pdf_simple
 
 from ventas_service import registrar_venta
@@ -198,6 +206,13 @@ def mostrar_menu():
     print("35) Reporte compras (JOIN con subtotal)")
     print("36) Reporte inventario de máquinas")
     print("37) Reporte stock bajo (umbral)")
+    
+    print("\n--- GRÁFICOS (matplotlib) ---")
+    print("38) Gráfico: Ventas por cliente")
+    print("39) Gráfico: Ventas por empleado")
+    print("40) Gráfico: Inventario de máquinas")
+    print("41) Gráfico: Compras por proveedor")
+    print("42) Gráfico: Ventas por categoría")
 
     print("\n--- EXPORTAR ÚLTIMO REPORTE VISTO ---")
     print("31) Exportar a CSV")
@@ -458,6 +473,26 @@ def ejecutar_opcion(op: str) -> bool:
         umbral = pedir_int("Umbral de stock (ej: 5): ")
         df = reporte_stock_bajo(umbral)
         mostrar_df(df, f"REPORTE STOCK BAJO (<= {umbral})", guardar_como_ultimo=True)
+        pause()
+        
+    elif op == "38":
+        ventas_por_cliente()
+        pause()
+
+    elif op == "39":
+        ventas_por_empleado()
+        pause()
+
+    elif op == "40":
+        inventario_maquinas()
+        pause()
+
+    elif op == "41":
+        compras_por_proveedor()
+        pause()
+
+    elif op == "42":
+        ventas_por_categoria()
         pause()
 
     # =======================
