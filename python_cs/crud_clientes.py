@@ -1,12 +1,12 @@
 from db import run_execute, run_query_df
 
-# ============================================================
+# ========================================================================================
 # CRUD CLIENTES
 # - CREAR: crear_cliente
 # - LECTURA:   listar_clientes, buscar_cliente_por_telefono, buscar_cliente_por_nombre
 # - ACTUALIZAR: actualizar_telefono_cliente, actualizar_cliente_completo
 # - ELIMINAR: eliminar_cliente
-# ============================================================
+# ==========================================================================================
 
 # =========================
 # CREAR

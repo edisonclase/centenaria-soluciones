@@ -1,12 +1,12 @@
 from db import run_execute, run_query_df
 
-# ============================================================
+# ==========================================================================
 # CRUD MAQUINAS
 # - CREAR: crear_maquinas
 # - LECTURA:   listar_maquinas, buscar_maquina_por_modelo,
 # - ACTUALIZAR: actualizar_precio_maquina, actualizar_maquina_completa
 # - ELIMINAR: eliminar_maquina
-# ============================================================
+# =========================================================================
 
 
 # =========================

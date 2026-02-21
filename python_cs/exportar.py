@@ -6,7 +6,7 @@ from reportlab.pdfgen import canvas
 
 
 # Carpeta donde se guardarán los archivos generados
-# IMPORTANTE: en tu proyecto la carpeta se llama "Salidas" (con S mayúscula)
+
 CARPETA_SALIDAS = "salidas"
 
 
